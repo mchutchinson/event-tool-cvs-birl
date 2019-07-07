@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<event>
+		<event_type>Summer Makeup</event_type>
+		<store_id>1339</store_id>
+		<address>26265 Northwest Freeway</address>
+		<city>Cypress</city>
+		<state>TX</state>
+		<zipcode>77433</zipcode>
+		<plan_url>https://squareup.com/appointments/book/G0Z7W48KA16XC/cvs-andover-andover-ma</plan_url>
+		<event_date>07/19/2025</event_date>
+		<event_time>2pm-6pm</event_time>
+		<event_description>Lorem Ipsum</event_description>
+	</event>
+	<event>
+		<event_type>Summer Hair</event_type>
+		<store_id>19</store_id>
+		<address>3850 Farm to Market 2920</address>
+		<city>Spring</city>
+		<state>TX</state>
+		<zipcode>77388</zipcode>
+		<plan_url>https://squareup.com/appointments/book/NVZ2EDJ644DKC/cvs-stamford-stamford-ct</plan_url>
+		<event_date>07/26/2025</event_date>
+		<event_time>2pm-6pm</event_time>
+		<event_description>Suspendisse tristique</event_description>
+	</event>
+	<event>
+		<event_type>Summer Hair</event_type>
+		<store_id>19</store_id>
+		<address>3850 Farm to Market 2920</address>
+		<city>Spring</city>
+		<state>TX</state>
+		<zipcode>77388</zipcode>
+		<plan_url>https://squareup.com/appointments/book/NVZ2EDJ644DKC/cvs-stamford-stamford-ct</plan_url>
+		<event_date>07/28/2025</event_date>
+		<event_time>2pm-6pm</event_time>
+		<event_description>Suspendisse tristique</event_description>
+	</event>
+</events>

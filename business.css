@@ -1,0 +1,1268 @@
+body {font-family: Helvetica,Arial,sans-serif;}
+
+/* ----------------- COMMON STYLES ------------------ */
+
+/* Container styles  --------------- */
+#promocontent {width:auto; margin: 0; padding: 0;}
+.promoWrapper {width:940px; margin: 0 auto;}
+.promoBannercontainer {margin: 0; padding: 0 0 1.667em 0;}
+.promoTitlecontainer {margin: 0 0 1em 0; overflow: hidden;}
+.promoFloatcontainer {overflow:hidden; width:100%; height:100%;}
+
+/* Column wrappers --------------- */
+.promoWrapperleft {width:70%; text-align: left; margin: 0; padding: 0;}
+.promoWrapperright {width:30%; margin: 0; padding: 0;}
+.promoWrapperbullet {width:50%;}
+
+/* Common content styles  --------------- */
+#promocontent h2,h3,h4,h5,h6 {font-weight: bold; margin-top: 0;}
+#promocontent h2 {
+	font-size: 2em;
+	margin-bottom: 0.667em;
+	color: #CC0000;
+} /* 24px */
+#promocontent h3 {font-size: 1.5em; margin-bottom: 0.917em;} /* 18px */
+#promocontent h4 {font-size: 1.333em; margin-bottom: 1.167em;} /* 16px */
+#promocontent h5 {font-size: 1.167em; margin-bottom: 1.417em;} /* 14px - do not use*/
+#promocontent h6 {font-size: 1em; margin-bottom: 1.667em; } /* 12px - do not use*/
+#promocontent h2 img, h3 img, h4 img, h5 img, h6 img {margin: 0;}
+#promocontent p {margin: 0 0 1.167em 0;}
+.promocontent p {margin: 0 0 1.167em 0;}
+#promocontent a {text-decoration:underline; cursor:pointer;}
+#promocontent a:hover {text-decoration:underline;}
+#promocontent a:focus {border: 2px solid #63B5FF;}
+#promocontent ul {margin:0; padding:0;}
+#promocontent li {margin:0 0 0.833em 0;}
+#promocontent ul.promoShowdisc {padding:0 0 1.167em 0; margin:0;}
+#promocontent ul.promoShowdisc li {margin:0 0 0.417em 3em;list-style-type:disc !important;}
+
+/* Help section styling --------------- */
+.promohelp ul {margin:0; padding:0;}
+.promohelp li {margin:0 0 0.833em 0;}
+.promohelp ul.promoShowdisc {padding:0 0 1.167em 0; margin:0;}
+.promohelp ul.promoShowdisc li {margin:0.417em 0 0.417em 3em;list-style-type:disc !important;}
+
+
+/* Text colors --------------- */
+.promoTextred {color: #CC0000;}
+.promoTextpink {color: #e83d8b;}
+.promoTextblue {color: #007099;}
+.promoTextwhite {color: #ffffff;}
+.promoTextgrey {color: #404040;}
+.promoTextdarkgray {color: #333333;}
+.promoTextyellow {color: #fff200;}
+.promoTextWAyellow {color: #ffe41e;}
+.promoTextdblue {color: #042044;}
+.promoTextlblue {color: #13b6ea;}
+.promoTextpurple {color: #732b90;}
+.promoTextgreen {color: #497b0d;}
+.promoTextblack {color: #000000;}
+.promoTextnavy {color: #00334B;}
+
+/* Text links ------------------ */
+.deptstdLinkred {color:#CC0000; font-weight:bold; font-size:14px; background:url(arrow-red.png) right center no-repeat transparent; padding:0 0.75em 0 0; text-decoration: none;}
+.deptstdLinkred:hover {background-image: url(arrow-red-over.png); color: #990000 !important; font-size:14px; text-decoration: underline;}
+
+.deptstdLinkblack {color:#000000; font-weight:bold; font-size:14px; background:url(arrow-black.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+.deptstdLinkblack:hover {background-image: url(arrow-black.png); color: #000000 !important; text-decoration: underline;}
+
+#promocontent .promoLinkred {color:#CC0000; font-weight:bold; background:url(arrow-red.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkred:hover {background-image: url(arrow-red-over.png); color: #990000 !important; text-decoration: underline;}
+
+#promocontent .promoLinkrednone {color:#CC0000; font-weight:bold; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkrednone:hover {color: #990000 !important; text-decoration: underline;}
+
+#promocontent .promoLinkpink {color:#e83d8b; font-weight:bold; font-size:12px; background:url(arrow-pink.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkpink:hover {background-image: url(arrow-pink-over.png); color: #c33776 !important; text-decoration: underline;}
+#promocontent .promoLinkblue {color:#007099; font-weight:bold; font-size:12px; background:url(arrow-blue.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkblue:hover {background-image: url(arrow-blue-over.png); color: #005a7a !important; text-decoration: underline;}
+#promocontent .promoLinkgrey {color:#404040; font-weight:bold; background:url(arrow-gray.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkgrey:hover {background-image: url(arrow-gray-over.png); color: #333333 !important; text-decoration: underline;}
+#promocontent .promoLinkwhite {color:#ffffff; font-weight:bold; font-size:12px; background:url(arrow-white.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkwhite:hover {background-image: url(arrow-white.png); color: #ffffff !important; text-decoration: underline;}
+#promocontent .promoLinkpurple {color:#8b0875; font-weight:bold; font-size:12px; background:url(arrow-purple.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkpurple:hover {background-image: url(arrow-purple-over.png); color: #670456 !important; text-decoration: underline;}
+
+#promocontent .promoLinkpurple {color:#8b0875; font-weight:bold; font-size:12px; background:url(arrow-purple.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkpurple:hover {background-image: url(arrow-purple-over.png); color: #670456 !important; text-decoration: underline;}
+
+#promocontent .promoLinkgreen {color:#2f520b; font-weight:bold; background:url(arrow-green.png) right center no-repeat transparent; text-decoration: none;}
+#promocontent .promoLinkgreen:hover {background-image: url(arrow-green-over.png); color: #223c08 !important; text-decoration: underline;}
+
+#promocontent .promoLinkblack {color:#000000; font-weight:bold; font-size:12px; background:url(arrow-black.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+#promocontent .promoLinkblack:hover {background-image: url(arrow-black.png); color: #000000 !important; text-decoration: underline;}
+
+.deptstdCaretred {color:#cc0000; font-size: 12px; font-weight:600; background:url(/bizcontent/general/caret-red.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+.deptstdCaretred:hover {background-image: url(/bizcontent/general/caret-gray.png); color: #585858!important; text-decoration: none;}
+.deptstdCaretblack {color:#000; font-size: 12px; font-weight:600; background:url(/bizcontent/general/caret-black.png) right center no-repeat transparent; padding:0 0.833em 0 0; text-decoration: none;}
+.deptstdCaretblack:hover {background-image: url(/bizcontent/general/caret-red.png); color: #cc0000!important; text-decoration: none;}
+#promocontent a.deptstdCaretred, #promocontent a.deptstdCaretblack {text-decoration: none !important;}
+#promocontent a.deptstdCaretred:hover, #promocontent a.deptstdCaretblack:hover {text-decoration: none!important;}
+
+/* Misc. --------------- */
+.promoBodycopy40, .promoBodycopy36, .promoBodycopy30, .promoBodycopy26, .promoBodycopy24, .promoBodycopy20 {line-height:1.2;}
+.promoBodycopy40 {font-size: 3.333em;}
+.promoBodycopy36 {font-size: 3em;}
+.promoBodycopy30 {font-size: 2.5em;}
+.promoBodycopy26 {font-size: 2.167em;}
+.promoBodycopy24 {font-size: 2em;}
+.promoBodycopy22 {font-size: 22px;}
+.promoBodycopy20 {font-size: 1.667em;}
+.promoBodycopy18 {font-size: 1.5em;}
+.promoBodycopy16 {font-size: 1.333em;}
+.promoBodycopy14 {font-size: 1.167em;}
+.promoSmalltext {font-size: 0.917em;}
+.spacer {margin: 0; padding: 1.333em 3em 0 0;}
+.promoBold {font-weight:bold;}
+.promoItalic {font-style:italic;}
+#resultsTabs {clear:both;}
+.brandShopHeader {clear:both;}
+.promoBodycopythin {font-weight: 200;}
+.texthidden {display:block;width:1px;position:absolute;border:none;outline:none;text-indent:-9999px;overflow:hidden;top:0;left:0;z-index:10;}
+.element-invisible {position: absolute !important;clip: rect(1px 1px 1px 1px); /* IE6, IE7 */clip: rect(1px, 1px, 1px, 1px);}
+
+.super {position:relative;bottom:.55em;font-size:.55em}
+
+/* ----------------- FLYDOWNS ------------------ */
+
+/* Container styles  --------------- */
+#flydownWrapper {width:700px; height:340px; margin:0; padding: 0 1.333em;}
+.flydownPromoContainer {height:200px; margin:0; padding:1.333em 0;}
+.flydownNavContainer {margin:0; padding:0;}
+.productImageContainer {margin: 0; padding: 1.333em 0 0 0; width: 148px; text-align:center;}
+.productImagetitle {font-weight:bold; margin:0; padding:0.667em 0 1.333em 0;}
+
+/* Common content styles  --------------- */
+#flydownWrapper ul {margin:0; padding: 0 4.167em 0 0;}
+#flydownWrapper li {margin:0; padding:0; line-height:1.667em; width:auto;}
+
+/* Text links ------------------ */
+#flydownWrapper a {text-decoration:none;}
+#flydownWrapper a:hover {text-decoration:underline;}
+#flydownWrapper li a {text-decoration:none;}
+#flydownWrapper li a:hover {text-decoration:underline; background-color:#fff !important;}
+
+
+/* RX styles  --------------- */
+#RXflydownWrapper {width:730px; height:340px; margin:0; padding: 0;}
+
+.RXflydownBG1 {background:url(/general/flydowns/rx/3.jpg) no-repeat top; width:730px; height:198px; }
+.RXflydownText1 {padding-top:20px; padding-left: 20px; width:223px;}
+.RXflydownText1a {height:50px; width:200px;}
+.RXflydownText1b {height:72px; width:200px;}
+.RXflydownText1tr {padding-top:20px; padding-left: 20px; width:450px;}
+.RXflydownText1atr {height:50px; width:400px;}
+.RXflydownText1btr {height:72px; width:400px;}
+.RXflydownText2 {padding-top:10px; padding-left: 20px; width:224px;}
+.RXflydownText2az {padding-top:10px; padding-left: 20px; width:660px;}
+.RXflydownText2w {padding-top:10px; padding-left: 20px; width:274px;}
+
+.RXflydownText2az .azList {background: url("/webcontent/images/prescription/bg-drug-list-00.png") no-repeat scroll center center transparent; height: 95px; left: -1px; margin-top: 10px !important; position: relative; width: 623px;}
+.RXflydownText2az .azList .contentBoxInner {padding: 10px;}
+.RXflydownText2az .azList .lettersHolder {padding-top: 12px; text-align: center;}
+.RXflydownText2az .lettersHolder a {display: inline-block; font-weight: bold; height: 20px; line-height: 20px; text-align: center; width: 19px;}
+
+.RXflydownChapterText {padding-top:10px; padding-left: 10px;}
+
+/* Common content styles  --------------- */
+#RXflydownWrapper ul {margin:0; padding: 0 ;}
+#RXflydownWrapper li {margin:0; padding:0; line-height:1.667em; width:auto;}
+.rxflydownlineheight {margin:0; padding:0; line-height:1.667em; }
+
+/* Text links ------------------ */
+#RXflydownWrapper a {text-decoration:none;}
+#RXflydownWrapper a:hover {text-decoration:underline;}
+#RXflydownWrapper li a {text-decoration:none;}
+#RXflydownWrapper li a:hover {text-decoration:underline; background-color:#fff !important;}
+
+.RXflydownBGtransfer {background:url(/general/flydowns/rx/2transfer.jpg) no-repeat top; width:730px; height:198px; }
+
+.RXflydownBG1-new {background:url(/general/flydowns/rx/2-new.jpg) no-repeat top; width:730px; height:198px; }
+
+#RXflydownWrapperMy {width:730px; height:340px; margin:0; padding: 0; background:url(/general/flydowns/rx/my.jpg) no-repeat top; }
+.RXflydownBG1-my {width:730px; height:198px; }
+.RXflydownText1my {padding-top:20px; padding-left: 20px; width:600px;}
+.RXflydownText1a-my {height:50px; width:580px;}
+.RXflydownText1b-my {height:72px; width:580px;}
+
+#RXflydownWrapperView {width:730px; height:340px; margin:0; padding: 0; background:url(/general/flydowns/rx/view.jpg) no-repeat top; }
+.RXflydownBG1-view {width:730px; height:198px; }
+.RXflydownText1view {padding-top:20px; padding-left: 20px; width:600px;}
+.RXflydownText1a-view {height:50px; width:580px;}
+.RXflydownText1b-view {height:72px; width:580px;}
+
+#RXflydownWrapperFlu {width:730px; height:330px; margin:0; padding: 0; background:url(/general/flydowns/rx/flu-flydown-back.jpg) no-repeat top; color:#fff;}
+#RXflydownWrapperFlu ul {margin:0; padding: 0 4.167em 0 0;}
+#RXflydownWrapperFlu li {margin:0; padding:0; line-height:1.333em; width:auto;}
+#RXflydownWrapperFlu ul li a {color:#fff; text-decoration:underline;}
+#RXflydownWrapperFlu ul li a:hover {text-decoration:none; background-color:transparent !important;}
+
+
+/* ----------------- HOME PAGE BANNERS ------------------ */
+.homePromoBanner {width:220px;}
+.homePromoBanner p {margin:0 0 .5em 0; padding:0;}
+.homePromoBanner img {padding:0 0 1em 0;}
+
+
+/* ----------------- CATALOG PATH ------------------ */
+
+/* Container styles  --------------- */
+#featuredcategoriesWrapper {width:700px; }
+.featuredcategoriesImageContainer {margin: 0; padding: 0 0 0 0; width: 175px; text-align:left;}
+
+.featuredbrandsWrapper {width:700px; }
+.featuredbrandsImageContainer {margin:0; padding:0 1.667em 0 0;}
+.shadowDivider700 {background:url(shadowDiv700.jpg) no-repeat bottom; width:700px; height:20px; margin:0.833em 0 0 0;}
+
+
+/* ----------------- BUTTONS ------------------ */
+
+/* BLUE large button --------------- */
+.promobtn-blue-lrg,.promobtn-blue-lrg span,.promobtn-blue-lrg div {height:37px;font-weight:normal;color:#FFFFFF;line-height:37px;text-decoration:none;}
+.promobtn-blue-lrg .left {background:url(blue-btn-left-rounded-lrg-sprite.png) no-repeat 0px 0px transparent;width: 7px;}
+.promobtn-blue-lrg .center {font-size: 1.33em; background:url(blue-btn-center-lrg-sprite.png) repeat-x 0px 0px transparent;padding:0px 5px}
+.promobtn-blue-lrg .right-with-arrow {background:url(blue-btn-right-rounded-divider-arrow-lrg-sprite.png) no-repeat 0px 0px transparent;width: 36px;}
+.promobtn-blue-lrg .right {background:url(blue-btn-right-rounded-lrg-sprite.png) no-repeat 0px 0px transparent;width: 30px;}
+
+.promobtn-blue-lrg:hover .left {background-position: 0px -37px;width: 7px;}
+.promobtn-blue-lrg:hover .center { background-position: 0px -37px;}
+.promobtn-blue-lrg:hover .right-with-arrow {background-position: 0px -37px;width: 36px;}
+.promobtn-blue-lrg:hover .right {background-position: 0px -37px;width: 30px;}
+
+/* GREEN large button --------------- */
+.promobtn-green-lrg,.promobtn-green-lrg span,.promobtn-green-lrg div {height:37px;font-weight:normal;color:#FFFFFF;line-height:37px;text-decoration:none;}
+.promobtn-green-lrg .left {background:url(green-btn-left-rounded-lrg-sprite.png) no-repeat 0px 0px transparent;width: 7px;}
+.promobtn-green-lrg .center {font-size: 1.33em; background:url(green-btn-center-lrg-sprite.png) repeat-x 0px 0px transparent;padding:0px 5px}
+.promobtn-green-lrg .right-with-arrow {background:url(green-btn-right-rounded-divider-arrow-lrg-sprite.png) no-repeat 0px 0px transparent;width: 36px;}
+.promobtn-green-lrg .right {background:url(green-btn-right-rounded-lrg-sprite.png) no-repeat 0px 0px transparent;width: 30px;}
+
+.promobtn-green-lrg:hover .left {background-position: 0px -37px;width: 7px;}
+.promobtn-green-lrg:hover .center { background-position: 0px -37px;}
+.promobtn-green-lrg:hover .right-with-arrow {background-position: 0px -37px;width: 36px;}
+.promobtn-green-lrg:hover .right {background-position: 0px -37px;width: 30px;}
+
+/* BLUE medium button --------------- */
+.promobtn-blue-med,.promobtn-blue-med span, .promobtn-blue-med div {height:25px;font-weight:bold;color:#FFFFFF;line-height:25px;}
+.promobtn-blue-med .left {background:url(blue-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-blue-med .center {font-size: 1.167em; padding:0 5px; background:url(blue-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-blue-med .right {background:url(blue-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-blue-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-blue-med:hover .center {background-position: 0px -28px;}
+.promobtn-blue-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* WHITE medium button, new 2014 --------------- */
+.promobtn-white-med,.promobtn-white-med span, .promobtn-white-med div {height:25px;font-weight:bold;color:#cc0000;line-height:25px;}
+.promobtn-white-med .left {background:url(white-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-white-med .center {font-size: 1.167em; padding:0 5px; background:url(white-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-white-med .right {background:url(white-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-white-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-white-med:hover .center {background-position: 0px -28px;}
+.promobtn-white-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* WHITE medium button, black text new 2015 --------------- */
+.promobtn-white-med-blacktxt,.promobtn-white-med-blacktxt span, .promobtn-white-med-blacktxt div {height:25px;font-weight:bold;color:#000000;line-height:25px;}
+.promobtn-white-med-blacktxt .left {background:url(white-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-white-med-blacktxt .center {font-size: 1.167em; padding:0 5px; background:url(white-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-white-med-blacktxt .right {background:url(white-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-white-med-blacktxt:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-white-med-blacktxt:hover .center {background-position: 0px -28px;}
+.promobtn-white-med-blacktxt:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* BLACK medium button, new 2015 --------------- */
+.promobtn-black-med,.promobtn-black-med span, .promobtn-black-med div {height:25px;font-weight:bold;color:#FFFFFF;line-height:25px;}
+.promobtn-black-med .left {background:url(black-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-black-med .center {font-size: 1.167em; padding:0 5px; background:url(black-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-black-med .right {background:url(black-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-black-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-black-med:hover .center {background-position: 0px -28px;}
+.promobtn-black-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* PINK medium button --------------- */
+.promobtn-pink-med,.promobtn-pink-med span, .promobtn-pink-med div {height:25px;font-weight:bold;color:#FFFFFF;line-height:25px;}
+.promobtn-pink-med .left {background:url(pink-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-pink-med .center {font-size: 1.167em; padding:0 5px; background:url(pink-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-pink-med .right {background:url(pink-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-pink-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-pink-med:hover .center {background-position: 0px -28px;}
+.promobtn-pink-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* PURPLE medium button --------------- */
+.promobtn-purple-med,.promobtn-purple-med span, .promobtn-purple-med div {height:25px;font-weight:bold;color:#FFFFFF;line-height:25px;}
+.promobtn-purple-med .left {background:url(purple-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-purple-med .center {font-size: 1.167em; padding:0 5px; background:url(purple-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-purple-med .right {background:url(purple-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-purple-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-purple-med:hover .center {background-position: 0px -28px;}
+.promobtn-purple-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* LIGHT PURPLE large button --------------- */
+.promobtn-lpurple-lrg,.promobtn-lpurple-lrg span,.promobtn-lpurple-lrg div {height:37px;font-weight:normal;color:#FFFFFF;line-height:37px;text-decoration:none;}
+.promobtn-lpurple-lrg .left {background:url(lpurple-btn-left-rounded-lrg-sprite.png) no-repeat 0px 0px transparent;width: 7px;}
+.promobtn-lpurple-lrg .center {font-size: 1.33em; background:url(lpurple-btn-center-lrg-sprite.png) repeat-x 0px 0px transparent;padding:0px 5px}
+.promobtn-lpurple-lrg .right-with-arrow {background:url(lpurple-btn-right-rounded-divider-arrow-lrg-sprite.png) no-repeat 0px 0px transparent;width: 36px;}
+.promobtn-lpurple-lrg .right {background:url(lpurple-btn-right-rounded-lrg-sprite.png) no-repeat 0px 0px transparent;width: 30px;}
+
+.promobtn-lpurple-lrg:hover .left {background-position: 0px -37px;width: 7px;}
+.promobtn-lpurple-lrg:hover .center { background-position: 0px -37px;}
+.promobtn-lpurple-lrg:hover .right-with-arrow {background-position: 0px -37px;width: 36px;}
+.promobtn-lpurple-lrg:hover .right {background-position: 0px -37px;width: 30px;}
+
+/* LIGHT PURPLE medium button --------------- */
+.promobtn-lpurple-med,.promobtn-lpurple-med span, .promobtn-lpurple-med div {height:25px;font-weight:bold;color:#FFFFFF;line-height:25px;}
+.promobtn-lpurple-med .left {background:url(lpurple-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-lpurple-med .center {font-size: 1.167em; padding:0 5px; background:url(lpurple-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-lpurple-med .right {background:url(lpurple-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-lpurple-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-lpurple-med:hover .center {background-position: 0px -28px;}
+.promobtn-lpurple-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* GREEN medium button --------------- */
+.promobtn-green-med,.promobtn-green-med span, .promobtn-green-med div {height:25px;font-weight:bold;color:#FFFFFF;line-height:25px;}
+.promobtn-green-med .left {background:url(green-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-green-med .center {font-size: 1.167em; padding:0 5px; background:url(green-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-green-med .right {background:url(green-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-green-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-green-med:hover .center {background-position: 0px -28px;}
+.promobtn-green-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* Orange medium button --------------- */
+.promobtn-orange-med,.promobtn-orange-med span, .promobtn-orange-med div {height:25px;font-weight:bold;color:#FFFFFF;line-height:25px;}
+.promobtn-orange-med .left {background:url(orange-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+.promobtn-orange-med .center {font-size: 1.167em; padding:0 5px; background:url(orange-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+.promobtn-orange-med .right {background:url(orange-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;}
+
+.promobtn-orange-med:hover .left {background-position: 0px -28px;width: 10px;}
+.promobtn-orange-med:hover .center {background-position: 0px -28px;}
+.promobtn-orange-med:hover .right {background-position: 0px -28px;width: 10px;}
+
+/* ----------------- BUTTONS NEW------------------ */
+.min-btn-size {min-height: 34px; min-width: 50px; padding: 5px 0;}
+.pbtn-large {font-size: 16px; font-weight: 700; padding: 16px 32px;}
+.pbtn-large:focus {border: 2px solid #63B5FF;}
+.pbtn-large-border {font-size: 16px; font-weight: 700; padding: 14px 30px;}
+.pbtn-large-border:focus {border: 2px solid #63B5FF;}
+
+/* White------------------ */
+.pbtn-white {background-color: #ffffff;}
+a.pbtn-white:hover {background-color: #e9e9e9;}
+a.ptxt-black, a.ptxt-black:hover {color: #000000; text-decoration: none!important;}
+
+/* Red------------------ */
+.pbtn-red {background-color: #cc0000;}
+a.pbtn-red:hover {background-color: #990000;}
+a.ptxt-white, a.ptxt-white:hover {color: #ffffff; text-decoration: none!important;}
+
+/* Black------------------ */
+.pbtn-black {background-color: #000000;}
+a.pbtn-black:hover {background-color: #313131;}
+
+/* White outline and white text ------------------ */
+.pbtn-white-border {border: 2px solid #ffffff;}
+a.pbtn-white-border:hover {border: 2px solid #e9e9e9;}
+a.pbtn-white-border.ptxt-white:hover {color: #e9e9e9; text-decoration: none !important;}
+
+/* Black outline and black text ------------------ */
+.pbtn-white-border-black {background-color: #ffffff; border: 2px solid #000000;}
+a.pbtn-white-border-black:hover {background-color: #ffffff; border: 2px solid #313131;text-decoration: none!important;}
+a.pbtn-white-border-black.ptxt-black:hover {color: #313131; text-decoration: none !important;}
+
+/* Red outline and red text ------------------ */
+.pbtn-white-border-red {background-color: #ffffff; border: 2px solid #cc0000;}
+a.pbtn-white-border-red:hover {border: 2px solid #990000;}
+.ptxt-red {color: #cc0000; text-decoration: none !important;}
+a.ptxt-red:hover {color: #990000;}
+
+
+/* -------------------- COMMON ASSETS -------------------- */
+.divider-line {width: 700px; background-color: #404040; height: 1px; margin-bottom: 20px;}
+.focuslink:focus {border: 2px solid #63B5FF;}
+
+/* -------------------- FONT SIZES -------------------- */
+.fontsize12 {font-size: 12px;}
+.fontsize14 {font-size: 14px;}
+.fontsize16 {font-size: 16px;}
+.fontsize18 {font-size: 18px;}
+.fontsize20 {font-size: 20px;}
+.fontsize24 {font-size: 24px;}
+.fontsize28 {font-size: 28px;}
+.fontsize30 {font-size: 30px;}
+.fontsize32 {font-size: 32px;}
+.fontbold {font-weight: 600;}
+
+
+
+/*---------- NEW 2017 BREADCRUMBS ----------*/
+#promobreadcrumbs {display: none; border: 0; color: #585858; font-size: 12px; width: 100%; padding: 0 0; margin: 14px auto;}
+#promobreadcrumbs li {color: #585858; display: inline-block;}
+#promobreadcrumbs a {color: #585858; text-decoration: underline; padding-right: 4px; padding-left: 0; position: relative; top: -1px; font-weight: normal;}
+#promobreadcrumbs a:hover {color: #cc0000;}
+#promobreadcrumbs .arrows {display: inline-block; position: relative; top: 2px; margin-right: 2px; margin-left: 2px;}
+#promobreadcrumbs a:after {text-indent: 100%; white-space: nowrap; overflow: hidden; width: 12px; height: 12px; background-position: 0 0; background-size: 13px 13px; background-color: transparent; background-repeat: no-repeat; background-image: url(/bizcontent/general/carets.svg); content: ""; display: inline-block; margin-left: 4px; position: relative; top: 2px;}
+#promobreadcrumbs a:focus {border: 2px solid #63B5FF;}
+
+@media (min-width: 768px) {#promobreadcrumbs {display: block;}}
+
+
+
+/*---------- BREADCRUMBS ----------*/
+.ahabreadcrumb {font-size: 11px; overflow-x: hidden; overflow-y: hidden; padding-top: 3px; padding-left: 0;}
+.ahabreadcrumb a {text-decoration: underline;}
+.ahabreadcrumb a:focus {border: 2px solid #63B5FF;}
+.ahabreadcrumb li {color: #585858; display: inline; list-style-image: none; list-style-position: outside; list-style-type: none; padding-bottom: 0; padding-left: 2px; padding-right: 2px; padding-top: 0; line-height: 20px;}
+
+
+/* -------------------- CARET CTAs -------------------- */
+
+/* ----- RED CARET FONT -----*/
+.caret-red-18, .caret-red-18:active {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #cc0000 !important; text-decoration: none !important;}
+.caret-red-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red-hover.png) no-repeat scroll right; background-size: 8px 14px; color: #990000 !important; text-decoration: none !important;}
+.caret-red-18:focus {border: 2px solid #63B5FF;}
+
+.caret-red-16, .caret-red-16:active {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #cc0000 !important; text-decoration: none !important;}
+.caret-red-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red-hover.png) no-repeat scroll right; background-size: 7px 12px; color: #990000 !important; text-decoration: none !important;}
+.caret-red-16:focus {border: 2px solid #63B5FF;}
+
+.caret-red-14, .caret-red-14:active {background: transparent url(caret-red.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #cc0000 !important; text-decoration: none !important;}
+.caret-red-14:hover {background: transparent url(caret-red-hover.png) no-repeat scroll right; background-size: 6px 10px; color: #990000 !important; text-decoration: none !important;}
+.caret-red-14:focus {border: 2px solid #63B5FF;}
+
+/* ----- GRAY CARET FONT -----*/
+.caret-gray-18, .caret-gray-18:active {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #404040 !important; text-decoration: none !important;}
+.caret-gray-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 8px 14px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-gray-18:focus {border: 2px solid #63B5FF;}
+
+.caret-gray-16, .caret-gray-16:active {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #404040 !important; text-decoration: none !important;}
+.caret-gray-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 7px 12px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-gray-16:focus {border: 2px solid #63B5FF;}
+
+.caret-gray-14, .caret-gray-14:active {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #404040 !important; text-decoration: none !important;}
+.caret-gray-14:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 6px 10px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-gray-14:focus {border: 2px solid #63B5FF;}
+
+/* ----- BLACK CARET FONT -----*/
+.caret-black-18, .caret-black-18:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 8px 14px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-black-18:focus {border: 2px solid #63B5FF;}
+
+.caret-black-16, .caret-black-16:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 7px 12px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-black-16:focus {border: 2px solid #63B5FF;}
+
+.caret-black-14, .caret-black-14:active {background: transparent url(caret-black.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-14:hover {background: transparent url(caret-red.png) no-repeat scroll right; background-size: 6px 10px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-black-14:focus {border: 2px solid #63B5FF;}
+
+/* ----- BLACK CARET FONT - HOVER GRAY -----*/
+.caret-black-hgray-18, .caret-black-hgray-18:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hgray-18:hover {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll right; background-size: 8px 14px; color: #404040 !important; text-decoration: none !important;}
+.caret-black-hgray-18:focus {border: 2px solid #63B5FF;}
+
+.caret-black-hgray-16, .caret-black-hgray-16:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hgray-16:hover {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll right; background-size: 7px 12px; color: #404040 !important; text-decoration: none !important;}
+.caret-black-hgray-16:focus {border: 2px solid #63B5FF;}
+
+.caret-black-hgray-14, .caret-black-hgray-14:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hgray-14:hover {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll right; background-size: 6px 10px; color: #404040 !important; text-decoration: none !important;}
+.caret-black-hgray-14:focus {border: 2px solid #63B5FF;}
+
+
+/* ----- BLACK CARET FONT - HOVER BLACK -----*/
+.caret-black-hblack-18, .caret-black-hblack-18:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hblack-18:hover {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 8px 14px; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hblack-18:focus {border: 2px solid #63B5FF;}
+
+.caret-black-hblack-16, .caret-black-hblack-16:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hblack-16:hover {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 7px 12px; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hblack-16:focus {border: 2px solid #63B5FF;}
+
+.caret-black-hblack-14, .caret-black-hblack-14:active {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #000000 !important; text-decoration: none !important;}
+.caret-black-hblack-14:hover {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 6px 10px; color: #000000 !important; text-decoration: none !important;}
+
+
+/* ----- WHITE CARET FONT - HOVER RED -----*/
+.caret-white-18, .caret-white-18:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 8px 14px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-white-18:focus {border: 2px solid #63B5FF;}
+
+.caret-white-16, .caret-white-16:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 7px 12px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-white-16:focus {border: 2px solid #63B5FF;}
+
+.caret-white-14, .caret-white-14:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-14:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll right; background-size: 6px 10px; color: #cc0000 !important; text-decoration: none !important;}
+.caret-white-14:focus {border: 2px solid #63B5FF;}
+
+/* ----- WHITE CARET FONT - HOVER BLACK -----*/
+.caret-white-hblack-18, .caret-white-hblack-18:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-hblack-18:hover {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 8px 14px; color: #000000 !important; text-decoration: none !important;}
+.caret-white-hblack-18:focus {border: 2px solid #63B5FF;}
+
+.caret-white-hblack-16, .caret-white-hblack-16:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-hblack-16:hover {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 7px 12px; color: #000000 !important; text-decoration: none !important;}
+.caret-white-hblack-16:focus {border: 2px solid #63B5FF;}
+
+.caret-white-hblack-14, .caret-white-hblack-14:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-hblack-14:hover {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll right; background-size: 6px 10px; color: #000000 !important; text-decoration: none !important;}
+.caret-white-hblack-14:focus {border: 2px solid #63B5FF;}
+
+/* ----- WHITE CARET FONT - HOVER GRAY -----*/
+.caret-white-hlightgray-18, .caret-white-hlightgray-18:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 8px 14px; font-weight: 600;padding: 0px 16px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-hlightgray-18:hover {background: transparent url(/bizcontent/general/buttons/caret-lightgray.png) no-repeat scroll right; background-size: 8px 14px; color: #e9e9e9 !important; text-decoration: none !important;}
+.caret-white-hlightgray-18:focus {border: 2px solid #63B5FF;}
+
+.caret-white-hlightgray-16, .caret-white-hlightgray-16:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 7px 12px; font-weight: 600;padding: 0px 14px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-hlightgray-16:hover {background: transparent url(/bizcontent/general/buttons/caret-lightgray.png) no-repeat scroll right; background-size: 7px 12px; color: #e9e9e9 !important; text-decoration: none !important;}
+.caret-white-hlightgray-16:focus {border: 2px solid #63B5FF;}
+
+.caret-white-hlightgray-14, .caret-white-hlightgray-14:active {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll right; background-size: 6px 10px; font-weight: 600;padding: 0px 12px 0 0; color: #ffffff !important; text-decoration: none !important;}
+.caret-white-hlightgray-14:hover {background: transparent url(/bizcontent/general/buttons/caret-lightgray.png) no-repeat scroll right; background-size: 6px 10px; color: #e9e9e9 !important; text-decoration: none !important;}
+.caret-white-hlightgray-14:focus {border: 2px solid #63B5FF;}
+
+/* -------------------- ACCORDION CTAs -------------------- */
+
+/* ----- WHITE ACCORDION CARET FONT - HOVER RED -----*/
+.caret-acc-white-18 {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #ffffff; text-decoration: none !important;}
+.caret-acc-white-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-white-18:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-white-18.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-white.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #ffffff; text-decoration: none !important;}
+.caret-acc-white-18.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-white-18.open:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-white-16 {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll left; background-size: 7px 12px; font-weight: 600;padding: 0 0 0 14px; color: #ffffff;}
+.caret-acc-white-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll left; background-size: 7px 12px; color: #cc0000; text-decoration: none;}
+.caret-acc-white-16:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-white-16.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-white.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #ffffff; text-decoration: none !important;}
+.caret-acc-white-16.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-white-16.open:focus {border: 2px solid #63B5FF;}
+
+/* ----- WHITE ACCORDION CARET FONT - HOVER LIGHT GRAY -----*/
+.caret-acc-white-hlightgray-18 {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #ffffff; text-decoration: none !important;}
+.caret-acc-white-hlightgray-18:hover {background: transparent url(/bizcontent/general/buttons/caret-lightgray.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #e9e9e9; text-decoration: none !important;}
+.caret-acc-white-hlightgray-18:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-white-hlightgray-18.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-white.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #ffffff; text-decoration: none !important;}
+.caret-acc-white-hlightgray-18.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-lightgray.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #e9e9e9; text-decoration: none !important;}
+.caret-acc-white-hlightgray-18.open:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-white-hlightgray-16 {background: transparent url(/bizcontent/general/buttons/caret-white.png) no-repeat scroll left; background-size: 7px 12px; font-weight: 600;padding: 0 0 0 14px; color: #ffffff;}
+.caret-acc-white-hlightgray-16:hover {background: transparent url(/bizcontent/general/buttons/caret-lightgray.png) no-repeat scroll left; background-size: 7px 12px; color: #e9e9e9; text-decoration: none;}
+.caret-acc-white-hlightgray-16:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-white-hlightgray-16.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-white.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #ffffff; text-decoration: none !important;}
+.caret-acc-white-hlightgray-16.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-lightgray.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #e9e9e9; text-decoration: none !important;}
+.caret-acc-white-hlightgray-16.open:focus {border: 2px solid #63B5FF;}
+
+
+/* ----- GRAY ACCORDION CARET FONT - HOVER RED -----*/
+.caret-acc-gray-18 {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #404040; text-decoration: none !important;}
+.caret-acc-gray-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-gray-18:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-gray-18.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-gray.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #404040; text-decoration: none !important;}
+.caret-acc-gray-18.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-gray-18.open:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-gray-16 {background: transparent url(/bizcontent/general/buttons/caret-gray.png) no-repeat scroll left; background-size: 7px 12px; font-weight: 600;padding: 0 0 0 14px; color: #404040;}
+.caret-acc-gray-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll left; background-size: 7px 12px; color: #cc0000; text-decoration: none;}
+.caret-acc-gray-16:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-gray-16.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-gray.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #404040; text-decoration: none !important;}
+.caret-acc-gray-16.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-gray-16.open:focus {border: 2px solid #63B5FF;}
+
+
+/* ----- RED ACCORDION CARET FONT - HOVER DARK RED -----*/
+.caret-acc-red-18 {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-red-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red-hover.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #990000; text-decoration: none !important;}
+.caret-acc-red-18:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-red-18.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-red.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-red-18.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red-hover.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #990000; text-decoration: none !important;}
+.caret-acc-red-18.open:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-red-16 {background: transparent url(/bizcontent/general/buttons/caret-red.png) no-repeat scroll left; background-size: 7px 12px; font-weight: 600;padding: 0 0 0 14px; color: #cc0000;}
+.caret-acc-red-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red-hover.png) no-repeat scroll left; background-size: 7px 12px; color: #990000; text-decoration: none;}
+.caret-acc-red-16:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-red-16.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-red.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-red-16.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red-hover.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #990000; text-decoration: none !important;}
+.caret-acc-red-16.open:focus {border: 2px solid #63B5FF;}
+
+
+/* ----- BLACK ACCORDION CARET FONT - HOVER RED -----*/
+.caret-acc-black-18 {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #000000; text-decoration: none !important;}
+.caret-acc-black-18:hover {background: transparent url(/bizcontent/general/buttons/caret-red-hover.png) no-repeat scroll left; background-size: 8px 14px; font-weight: 600;padding: 0 0 0 16px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-black-18:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-black-18.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-black.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #000000; text-decoration: none !important;}
+.caret-acc-black-18.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red-hover.png) no-repeat scroll left; background-size: 14px 8px; font-weight: 600;padding: 0 0 0 25px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-black-18.open:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-black-16 {background: transparent url(/bizcontent/general/buttons/caret-black.png) no-repeat scroll left; background-size: 7px 12px; font-weight: 600;padding: 0 0 0 14px; color: #000000;}
+.caret-acc-black-16:hover {background: transparent url(/bizcontent/general/buttons/caret-red-hover.png) no-repeat scroll left; background-size: 7px 12px; color: #cc0000; text-decoration: none;}
+.caret-acc-black-16:focus {border: 2px solid #63B5FF;}
+
+.caret-acc-black-16.open {background: transparent url(/bizcontent/general/buttons/caret-accordion-black.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #000000; text-decoration: none !important;}
+.caret-acc-black-16.open:hover {background: transparent url(/bizcontent/general/buttons/caret-accordion-red-hover.png) no-repeat scroll left; background-size: 12px 7px; font-weight: 600;padding: 0 0 0 23px; color: #cc0000; text-decoration: none !important;}
+.caret-acc-black-16.open:focus {border: 2px solid #63B5FF;}
+
+
+/* ----- DARK GRAY ACCORDION -----*/
+.darkgray-accordion-14 {background:url(/bizcontent/general/buttons/arrow-gray-down.png) no-repeat scroll right; font-weight: 600;padding: 0px 12px 0 0; color: #404040;}
+.darkgray-accordion-14:focus {border: 2px solid #63B5FF;}
+
+
+/* -------------------- TEXT CTAs -------------------- */
+a.default-textlink {color: #333333 !important; text-decoration: underline !important;}
+a.default-textlink:hover {color: #767676 !important; text-decoration: underline !important;}
+a.default-textlink:active {color: #cc0000 !important; text-decoration: underline !important;}
+a.default-textlink:visited {color: #767676 !important; text-decoration: underline !important;}
+a.default-textlink:focus {border: 2px solid #63B5FF;}
+
+/* ----- PARAGRAPH TEXT LINK FONT -----*/
+.para-textlink {font-weight: normal !important; text-decoration: underline !important;}
+.para-textlink:active {color: #a50000 !important; font-weight: normal !important; text-decoration: underline !important;}
+.para-textlink:hover {color: #767676 !important; font-weight: normal !important; text-decoration: underline !important;}
+.para-textlink:focus {border: 2px solid #63B5FF;}
+
+/* ----- GRAY TEXT LINK FONT -----*/
+.gray-textlink, .gray-textlink:active {color: #373A3C !important; font-weight: normal !important; text-decoration: underline !important;}
+.gray-textlink:hover {color: #cc0000 !important; text-decoration: underline !important;}
+.gray-textlink:focus {border: 2px solid #63B5FF;}
+
+/* ----- DARK GRAY TEXT LINK FONT -----*/
+.darkgray-textlink, .darkgray-textlink:active {color: #404040 !important; font-weight: 600; text-decoration: none !important;}
+.darkgray-textlink:hover {color: #cc0000 !important; text-decoration: none !important;}
+.darkgray-textlink:focus {border: 2px solid #63B5FF;}
+
+/* ----- WHITE TEXT HOVER BLACK LINK FONT -----*/
+.white-textlink, .white-textlink:active {color: #fff !important; font-weight: 600; text-decoration: none !important;}
+.white-textlink:hover {color: #000000 !important; text-decoration: none !important;}
+.white-textlink:focus {border: 2px solid #63B5FF;}
+
+/* ----- WHITE TEXT HOVER LIGHT GRAY LINK FONT -----*/
+.white-textlink-hlightgray, .white-textlink-hlightgray:active {color: #fff !important; text-decoration: underline !important;}
+.white-textlink-hlightgray:hover {color: #e9e9e9 !important; text-decoration: underline !important;}
+.white-textlink-hlightgray:focus {border: 2px solid #63B5FF;}
+
+/* ----- BLACK TEXT LINK FONT -----*/
+.black-textlink, .black-textlink:active {color: #000000 !important; font-weight: 600; text-decoration: none !important;}
+.black-textlink:hover {color: #cc0000 !important; text-decoration: none !important;}
+.black-textlink:focus {border: 2px solid #63B5FF;}
+
+/* ----- BLACK TEXT UNDERLINED LINK FONT -----*/
+.black-textlink-cta, .black-textlink-cta:active {color: #000000 !important; font-weight: 600; text-decoration: underline !important;}
+.black-textlink-cta:hover {color: #cc0000 !important; text-decoration: underline !important;}
+.black-textlink-cta:focus {border: 2px solid #63B5FF;}
+
+/* ----- RED TEXT LINK FONT -----*/
+.red-textlink, .red-textlink:active {color: #cc0000 !important; font-weight: 600; text-decoration: none !important;}
+.red-textlink:hover {color: #990000 !important; text-decoration: none !important;}
+.red-textlink:focus {border: 2px solid #63B5FF;}
+
+/* ----- BLACK NAVIGATION LINK FONT -----*/
+.black-textlink-nav {font-weight: normal;}
+.black-textlink-nav:focus {border: 2px solid #63B5FF;}
+
+/* ----- DISCLAIMER GRAY TEXT LINK FONT -----*/
+.disclaimer-textlink, .disclaimer-textlink:active {color: #767676 !important; font-weight: normal !important; text-decoration: underline !important;}
+.disclaimer-textlink:hover {color: #cc0000 !important; text-decoration: underline !important;}
+.disclaimer-textlink:focus {border: 2px solid #63B5FF;}
+
+
+/* -------------------- CAROUSEL SHELVES -------------------- */
+#biz-shelf1 {margin-bottom: 20px !important;}
+#biz-shelf1 .biz-shelf1-carousel {position:relative; height: auto !important; padding: 20px 0 0 0;}
+#biz-shelf1 .biz-carousel-col {position:relative; float: left; box-sizing: content-box !important;}
+.biz-shelf1-left a, .biz-shelf1-right a {display:block;}
+#biz-shelf1 .biz-shelf1-left {position: absolute; z-index:100; display:block; left: 0 !important;} 
+#biz-shelf1 .biz-shelf1-left a {background:url("/bizcontent/general/buttons/arrow-scroller-left.png") no-repeat; width: 50px; height: 130px;}
+#biz-shelf1 .biz-shelf1-left a:hover {background:url("/bizcontent/general/buttons/arrow-scroller-left.png") no-repeat; width: 50px; height: 130px; -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%);}
+#biz-shelf1 .biz-shelf1-right {position: absolute; z-index:100; display:block; right: 0 !important;}
+#biz-shelf1 .biz-shelf1-right a {background:url("/bizcontent/general/buttons/arrow-scroller-right.png") no-repeat; width: 50px; height: 130px;}
+#biz-shelf1 .biz-shelf1-right a:hover {background:url("/bizcontent/general/buttons/arrow-scroller-right.png") no-repeat; width: 50px; height: 130px; -webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%);}
+
+#biz-shelf1 .disabled {display:none}
+#biz-shelf1 .biz-scrollable {margin-bottom: 0; position: relative; overflow: hidden; width: 660px;}
+#biz-shelf1 .biz-scrollable .biz-items {width: 20000em; position: relative; -webkit-transition: 0.5s ease-out; -moz-transition: 0.5s ease-out; -o-transition: 0.5s ease-out; transition: 0.5s ease-out;}
+
+#biz-shelf2 {margin-bottom: 20px !important;}
+#biz-shelf2 .biz-shelf2-carousel {position:relative; height: auto !important; padding: 20px 0 0 0;}
+#biz-shelf2 .biz-carousel-col {position:relative; float: left; box-sizing: content-box !important;}
+.biz-shelf2-left a, .biz-shelf2-right a {display:block;}
+#biz-shelf2 .biz-shelf2-left {position: absolute; z-index:100; display:block; left: 0 !important;} 
+#biz-shelf2 .biz-shelf2-left a {background:url("/bizcontent/general/buttons/arrow-scroller-left.png") no-repeat; width: 50px; height: 130px;}
+#biz-shelf2 .biz-shelf2-left a:hover {background:url("/bizcontent/general/buttons/arrow-scroller-left.png") no-repeat; width: 50px; height: 130px;-webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%);}
+#biz-shelf2 .biz-shelf2-right {position: absolute; z-index:100; display:block; right: 0 !important;}
+#biz-shelf2 .biz-shelf2-right a {background:url("/bizcontent/general/buttons/arrow-scroller-right.png") no-repeat; width: 50px; height: 130px;}
+#biz-shelf2 .biz-shelf2-right a:hover {background:url("/bizcontent/general/buttons/arrow-scroller-right.png") no-repeat; width: 50px; height: 130px;-webkit-filter: grayscale(100%); -ms-filter: grayscale(100%); filter: grayscale(100%);}
+#biz-shelf2 .disabled {display:none}
+#biz-shelf2 .biz-scrollable {margin-bottom: 0; position: relative; overflow: hidden; width: 660px;}
+#biz-shelf2 .biz-scrollable .biz-items {width: 20000em; position: relative; -webkit-transition: 0.5s ease-out; -moz-transition: 0.5s ease-out; -o-transition: 0.5s ease-out; transition: 0.5s ease-out;}
+
+/* -------------------- LEFT NAVIGATION BLOCKS FOR RESPONSIVE -------------------- */
+#promoleftnavall .promoleftnav {background-color: #f5f5f5; border: 1px solid #dadada; margin-bottom: 20px;}
+#promoleftnavall .promoleftnav h5 {border-bottom: 1px solid #D7D7D7; color: #404040; display: block; float: none; line-height: 16px; margin: 0; overflow: hidden; padding: 20px 20px 20px 4px; text-indent: 10px; font-size: 14px;}
+#promoleftnavall .promoleftnav ul {border-top: 1px solid #FFFFFF; padding: 20px 0 20px 0;}
+#promoleftnavall .promoleftnav ul li {margin: 0 0 0.833em 0;}
+#promoleftnavall .promoleftnav li a {background: url("/bizcontent/general/arrow-red-sm-00.png") no-repeat scroll 20px 5px #F5F5F5; padding-left: 30px; line-height: 16px;margin:5px 0 5px 0; text-decoration: none;}
+#promoleftnavall .promoleftnav li a:hover {padding-left: 30px; text-decoration: none; background-image: url("/bizcontent/general/arrow-red-sm-01.png"); color: #CC0000;}
+#promoleftnavall .promoleftnav li a:focus {border: 2px solid #63B5FF;}
+
+/* -------------------- LEFT NAVIGATION BLOCKS -------------------- */
+.leftnavblock {width:225px; text-align: left; margin: 0 10px 0 0; padding: 0;}
+.leftnavblock h5 {font-size: 1.167em !important;}
+.leftnavblock ul {padding: 20px 0 20px 0 !important;}
+.leftnavblock ul li {margin: 0 0 0.833em 0 !important;}
+
+.promoLeftmenu {background-color: #F5F5F5;border: 1px solid #DADADA;margin-bottom: 20px;width: 220px;float: left;}
+.promoLeftmenu  h5 {background-color: #F0F0F0;border-bottom: 1px solid #D7D7D7;color: #404040;display: block;float: none;line-height: 16px;margin: 0 !important;overflow: hidden;padding: 20px 20px 20px 4px;text-indent: 10px;}
+.promoLeftmenu  ul {}
+.promoLeftmenu li a {background: url("/bizcontent/general/arrow-red-sm-00.png") no-repeat scroll 20px 3px #F5F5F5!important; padding-left: 30px;!important; line-height: 16px;margin-bottom:5px; margin-top: 5px; text-decoration: none !important;}
+.promoLeftmenu li a:hover {padding-left: 30px;!important; text-decoration: underline; background-image: url("/bizcontent/general/arrow-red-sm-01.png") !important;color: #CC0000;}
+.promoLeftmenu li a:focus {border: 2px solid #63B5FF;}
+
+/* -------------------- NEW 2017 LEFT NAVIGATION BLOCKS FOR RESPONSIVE -------------------- */
+.leftNavmenu {background-color: #F5F5F5; border: 1px solid #DADADA; margin-bottom: 20px; width: 100%;}
+.leftNavmenu  h5 {background-color: #F0F0F0; border-bottom: 1px solid #D7D7D7; color: #404040; display: block; font-size: 14px !important; line-height: 16px; margin: 0; overflow: hidden; padding: 20px 20px 20px 4px; text-indent: 10px;}
+.leftNavmenu  ul {padding: 15px 0 15px 0;}
+.leftNavmenu ul li {padding: 5px 0 5px 0;}
+.leftNavmenu li a {background: url("/bizcontent/general/arrow-red-sm-00.png") no-repeat scroll 20px 5px #F5F5F5!important; padding: 0 0 0 30px !important; line-height: 16px; margin-bottom:5px; margin-top: 5px; text-decoration: none;}
+.leftNavmenu li a:hover {padding-left: 30px;!important; text-decoration: underline; background-image: url("/bizcontent/general/arrow-red-sm-01.png") !important;color: #cc0000;}
+.leftNavmenu li a:focus {border: 2px solid #63B5FF;}
+
+/* --------- VIDEO SECTIONS --------- */
+.promoVideosection {background: url("/bizcontent/general/standardGradientBox.jpg") repeat-x bottom; height: 270px; overflow: hidden; margin:0 0 1.667em 0; border:1px solid #d7d7d7;}
+.promoVideoleft {margin: 1.333em; width:400px;}
+.promoVideoright {margin: 1.333em 1.333em 0 0; width:480px;}
+.promoVideoMini {width:28%; margin-right: 1.25em;}
+.promoVideoMini img {margin-bottom: 0.417em;}
+
+
+/* ----------------- BADGE STYLES ------------------ */
+#badgeWrapper {padding: 0 0 1em 0;line-height:normal;}
+#badgeWrapper p {margin: 0; padding: 0;}
+.badgeWrapper700 {width:698px; height:98px;}
+.badgeWrapper460 {width:458px; height:198px;}
+.badgeWrapper220 {width:218px; height:198px;}
+
+.productTextContainer {margin: 0; padding: 1em 0 0 1.25em; float:left;}
+.productBack700 {margin:0 2em 0 0; height:98px; text-align:right;}
+.productBack460 {margin:0 2em 0 0; height:198px;}
+.productBack220 {margin:0 2em 0 0; height:198px;}
+
+.title700, .title460, .title220 {font-weight:bold;}
+.title700 {font-size:2.167em;} /* 26px */
+.title460 {font-size:2.333em;} /* 28px */
+.title220 {font-size:2.000em;} /* 24px */
+
+.subtitle700, .subtitle460, .subtitle220 {padding:0.208em 0 0 0;} /* 18px */
+.subtitle700 {font-size:1.500em;} /* 18px */
+.subtitle460 {font-size:1.667em;} /* 20px */
+.subtitle220 {font-size:1.333em;} /* 16px */
+
+.badgecta {margin:0; padding:0.833em 0 0 0;}
+
+
+/* --------- BORDERS and GRADIENTS --------- */
+.gradientGrey {
+border:1px solid #d7d7d7;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px; 
+background: rgb(255,255,255); /* Old browsers */
+-pie-background: linear-gradient(#ffffff, #e8e8e8); /* IE7/8 */
+behavior: url(PIE.htc);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(232,232,232,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(232,232,232,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(232,232,232,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(232,232,232,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(232,232,232,1) 100%); /* W3C */
+}
+.noGradient {
+border:1px solid #d7d7d7;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px; 
+behavior: url(PIE.htc);
+}
+
+
+
+/* --------- LEFT NAV, red SHOP versions --------- */
+#promoleftNavZone { width:220px; margin-right: 20px; }
+
+.promoLeftmenu {background-color: #F5F5F5;border: 1px solid #DADADA;margin-bottom: 20px;width: 220px;float: left;}
+#promoleftNavZone  h5 {background-color: #F0F0F0;border-bottom: 1px solid #D7D7D7;color: #404040;display: block;float: none;line-height: 16px;margin: 0;overflow: hidden;padding: 20px 20px 20px 4px;text-indent: 10px; font-size: 1.167em !important;}
+#promoleftNavZone  ul {border-top: 1px solid #FFFFFF; padding: 20px 0 20px 0 !important;}
+#promoleftNavZone  ul li {margin: 0 0 0.833em 0 !important;}
+#promoleftNavZone li a {background: url("arrow-red-sm-00.png") no-repeat scroll 20px 3px #F5F5F5!important; padding-left: 30px;!important; line-height: 16px;margin-bottom:5px; margin-top: 5px; text-decoration: none;}
+#promoleftNavZone li a:hover {padding-left: 30px;!important; text-decoration: underline; background-image: url("arrow-red-sm-01.png") !important;color: #CC0000;}
+#promoleftNavZone li a:focus {border: 2px solid #63B5FF;}
+
+/* --------- NEW 2015, LEFT NAV, without using div ids --------- */
+.promocustomleftNavZone {width:220px; margin-right: 20px;}
+.promocustomleftNavZone h5 {background-color: #F0F0F0;border-bottom: 1px solid #D7D7D7;color: #404040;display: block;float: none;line-height: 16px;margin: 0;overflow: hidden;padding: 20px 20px 20px 4px;text-indent: 10px;font-size:14px;}
+.promocustomleftNavZone ul {border-top: 1px solid #FFFFFF;padding: 14px 0 10px 0;}
+.promocustomleftNavZone li a {background: url("arrow-red-sm-00.png") no-repeat scroll 20px 3px #F5F5F5!important; padding-left: 30px;!important; line-height: 28px;margin-bottom:5px; margin-top: 5px; text-decoration: none;}
+.promocustomleftNavZone li a:hover {padding-left: 30px;!important; text-decoration: underline; background-image: url("arrow-red-sm-01.png") !important;color: #CC0000;}
+.promocustomleftNavZone li a:focus {border: 2px solid #63B5FF;}
+
+/* Left nav modal --------------- */
+.eventlistModal p {padding:1em 0 0 0; margin:0;}
+.eventlistModal ul {padding:0 0 1em 0;}
+.eventlistModal ul li {}
+.columnSpace {padding:0 1.667em 0 0;}
+
+
+/* --------- LEFT Rx NAV, blue versions --------- */
+#promoleftNavZoneB { width:220px; margin-right: 20px; }
+
+.promoLeftmenuB {background-color: #F5F5F5;border: 1px solid #DADADA;margin-bottom: 20px;width: 220px;float: left;}
+#promoleftNavZoneB h5 {background-color: #F0F0F0;border-bottom: 1px solid #D7D7D7;color: #007099;display: block;float: none;line-height: 16px;margin: 0;overflow: hidden;padding: 20px 20px 20px 4px;text-indent: 10px;}
+#promoleftNavZoneB ul {border-top: 1px solid #FFFFFF;padding: 20px 0 10px 0;}
+
+#promoleftNavZoneB li a {background: url("arrow-blue-sm-00.png") no-repeat scroll 20px 3px #F5F5F5!important; padding-left: 30px;!important; line-height: 16px;margin-bottom:5px; margin-top: 5px; text-decoration: none;}
+#promoleftNavZoneBli a:hover {padding-left: 30px;!important; text-decoration: underline; background-image: url("arrow-blue-sm-01.png") !important;color: #005a7a;}
+#promoleftNavZoneBli a:focus {border: 2px solid #63B5FF;}
+
+/* Faq ------------------ */
+/*.faqWrapper {width:940px; background:#ecedef; margin:0 auto; padding:0 0 1em 0; font-size:1.167em;}*/
+.faqWrapper {width:938px; margin:0 auto; padding:0 0 1em 0; font-size:1.167em; background:url(faq-back.jpg) repeat-x bottom; border:1px solid #d7d7d7;}
+.faqContainer {width:900px; margin:0 auto;}
+#promoexpandall {text-align:right; width:900px; padding:1em 0 .417em 0;}
+#promoexpandall a:hover {text-decoration:none;}
+#promocollapseall {text-align:right; width:900px; padding:1em 0 .417em 0;}
+#promocollapseall a:hover {text-decoration:none;}
+.FAQcontentQ, .FAQcontentA {background-color:#fff; border: 1px solid #dddddd; padding:.833em; margin:0 0 1em 0;}
+.FAQcontentQ a:hover, .FAQcontentA a:hover {text-decoration:none;}
+.FAQcontentQ a:focus, .FAQcontentA a:focus {border: 2px solid #63B5FF;}
+.FAQcontentA p {padding:0; margin:0;}
+.contentQ {padding:.833em 0 0 0; margin:0; font-weight:bold;}
+.contentA {padding:0; margin:0;}
+.contentA p {padding:0 0 .417em 0; margin:0;}
+#promoanswer1, #promoanswer2, #promoanswer3, #promoanswer4, #promoanswer5, #promoanswer6, #promoanswer7, #promoanswer8, #promoanswer9, #promoanswer10, #promoanswer11, #promoanswer12, #promoanswer13, #promoanswer14, #promoanswer15, #promoanswer16, #promoanswer17, #promoanswer18, #promoanswer19, #promoanswer20, #promoanswer21, #promoanswer22, #promoanswer23, #promocollapseall {display:none;}
+
+
+/* ----------------- Help ------------------ */
+
+.promoarticle {width:675px; margin:0; padding: 0;}
+#promoarticlelist  {padding: 0;}
+#promoarticlelist  a {text-decoration:none;}
+#promoarticlelist  a:focus {border: 2px solid #63B5FF;}
+#promoarticlelist  ul li {padding:0; margin:0 0 0.25em 1.5em; list-style-type:disc; background:none;}
+
+
+/* ----------------- Send to Card ------------------ */
+.send2cardDisclaimer {margin:0; padding:1.667em 0 0 0; width:auto;}
+.send2cardDisclaimer p {margin:0; padding:0;}
+.send2cardDisclaimer a.greyLink {text-decoration:underline;}
+.send2cardDisclaimer a.greyLink:focus {border: 2px solid #63B5FF;}
+
+/* ----------------- Coupon Help ------------------ */
+.couponFaqWrapper {width:640px; padding:1em;}
+.couponFaqWrapperTitle {padding:1em 0; margin:0; font-size: 1.667em; color: #CC0000; font-weight:bold;}
+.couponContentQ {padding:.833em 0 0 0; margin:0; font-weight:bold; font-size: 1.167em;}
+.couponContentA {padding:0 0 .417em 0; margin:0;}
+.couponThankYouContainer {margin:0 auto; width:335px;}
+.couponThankYou {background:url(/marketing/send2card/ec11022_load2card_promo1.jpg) no-repeat top; height:364px;}
+.couponThankYou p {margin:0; padding:0 0 .833em 0;}
+.couponThankYouText {width:275px; margin:0 auto; position:relative; top:140px;}
+
+
+/* ----------------- Beauty Club Enrollment ------------------ */
+.beautyClubCoupon {width:500px; margin:1em auto 0;}
+.beautyClubCouponTitle {padding:0.833em 0; color: #CC0000; font-size: 1.667em; font-weight:bold;}
+.beautyClubCouponHeader {height:106px; background:url(/marketing/beauty_club/beautyjoin/cpn_02.gif) no-repeat bottom;}
+.beautyClubCouponContent {width:500px; height:400px; background:url(/marketing/beauty_club/beautyjoin/beautyclub-email-back.jpg) no-repeat top; font-size: 1.167em;}
+.beautyClubCouponContent ul {padding:0; margin:0;}
+.beautyClubCouponContent ul li {margin:0 0 0.25em 1em; padding:0 0 0 .25em; list-style:disc;}
+.beautyClubCouponText {width:425px; margin:0 auto; position:relative; top:20px;}
+
+
+/* --------- MISC. STYLES --------- */
+html#homepage #refillPane{background:url("/bizcontent/marketing/rx_slots/bg-prescription-refillsnap.png") bottom left no-repeat transparent;}
+
+.dealsBgd {background: url('/bizcontent/merchandising/deals/deals-rainbow-bg.jpg') no-repeat top center #ffffff; }
+html#dealshome #membersZone > .col1 { background: url("/bizcontent/merchandising/deals/extracare/deals_boxbg_extracare.png") 0 0 no-repeat; }
+
+html#homepage #rewardsSectionWrapper {background: url('/bizcontent/marketing/extracare/dashboard/yellow-card-dash.jpg') no-repeat center 20px; padding-top: 20px; margin: 0 auto; min-width: 944px;}
+
+html#homepage #ecDownError{background: url('/bizcontent/marketing/extracare/dashboard/yellow-card-down.jpg') no-repeat center 100px; padding-top: 20px; margin: 0 auto; min-width: 944px;}
+
+
+html#extracareLanding body{
+               background: url("/bizcontent/marketing/extracare/hero/ec-yellow.jpg") repeat-x scroll center 11px transparent !important;
+}
+
+html#extracareLanding #featureAreaWrapper {background: none repeat scroll 0 0 transparent;}
+
+html#extracareLanding #featureArea {
+               background: none repeat scroll 0 0 transparent; padding: 0;
+}
+
+html#extracareLanding #featureArea strong {
+    
+    font-weight: bold;
+   
+}
+html#extracareLanding #navTab_01.selected {
+    background: url("/bizcontent/marketing/extracare/hero/cvs.png") no-repeat scroll center top #FFFFFF !important;
+}
+
+html#extracareLanding .extracare #navTab_01 {
+    background-image: url("/bizcontent/marketing/extracare/hero/cvs.png") !important;
+}
+
+html#extracareLanding .contentSlot .wd300 {
+    /*height: 0px;*/
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+}
+
+/* --------- ExtraCare Mail/Email --------- */
+html#Mail-signin #navTab_01.selected,
+html#Mail-signup #navTab_01.selected,
+html#email-signin #navTab_01.selected,
+html#email-signup #navTab_01.selected {background: url("/bizcontent/marketing/extracare/permissions/cvs.png") no-repeat scroll center top !important;}
+
+html#Mail-signin .bg-mailEmail,
+html#Mail-signup .bg-mailEmail,
+html#Mail-newcard-success .bg-mailEmail,
+html#email-signin .bg-mailEmail,
+html#email-signup .bg-mailEmail,
+html#email-newcard-success .bg-mailEmail {background: url("/bizcontent/marketing/extracare/permissions/background.png") no-repeat scroll 0 0 #FFF981;}
+
+.ec-mail-permission-left, .ec-email-permission-left {padding:0 20px 5px 0;}
+.ec-mail-permission-left p, .ec-email-permission-left p {padding:20px 0 0 0; margin:0; line-height:1em;}
+.ec-mail-permission-left sup, .ec-email-permission-left sup {font-size:.325em; vertical-align:15px;}
+.ec-mail-permission-right, .ec-email-permission-right {padding:0;}
+
+.ec-mail-permission-confirmation {padding:0; background:url(/marketing/extracare/permissions/mailbox-confirmation-back.png); width:940px; height:314px;}
+.ec-mail-permission-confirmation p, .ec-email-permission-confirmation p {padding:15px 0 0 0; margin:0; line-height:1.2em;}
+.ec-email-permission-confirmation {padding:0; background:url(/marketing/extracare/permissions/ec-card-confirmation-back.png); width:940px; height:314px;}
+
+
+
+/* ---------PHARMACY HOME --------- */
+
+/*html#pharmacyHome #mainWrapper {background: url('/bizcontent/marketing/rx_home/0508/blue-repeat.jpg') repeat-x top center #ffffff; overflow: hidden; position:relative; }*/
+html#pharmacyHome #main {margin-top:0px; }
+
+html#pharmacyHome #topSection {height: 220px; position: relative; background: url('/bizcontent/marketing/rx_home/1213/digital_rx_hero.jpg') no-repeat top center ; margin-top: -80px; padding-top: 80px;}
+html#pharmacyHome #topSection #promocontent p {margin: 0 0 1.167em 0; padding: 0;}
+
+
+
+
+
+/* --------- Ad Servings code --------- */
+#MJXSlots .ad728 {margin-right:2px;margin-left:2px}
+
+html#hrAuth div#mainWrapper {background:url(/bizcontent/marketing/ecphr/images/short-repeat.jpg) repeat-x top; margin-top:-110px;  padding-top:110px;}
+
+
+
+/* --------- Super Nav --------- */
+/*#top-nav-tabs > .col2 > a {
+    background: url("/bizcontent/general/supernav/bg-christmas-pane-top-sprite.png") no-repeat scroll 0 0 transparent;
+}*/
+
+/* --------- Add New ExtraCare Card--------- */
+
+html#newCardHome div#mainWrapper {background:url(/bizcontent/marketing/extracare/newcard/ec-yellow-390.jpg) repeat-x top; margin-top:-110px;  padding-top:110px;}
+html#newCardConfirmation div#mainWrapper {background:url(/bizcontent/marketing/extracare/newcard/ec-yellow-390.jpg) repeat-x top; margin-top:-110px;  padding-top:110px;}
+html#newCardHome #navTab_01.selected {
+    background: url("/bizcontent/marketing/extracare/hero/cvs.png") no-repeat scroll center top #FFFFFF !important;
+}
+html#newCardConfirmation #navTab_01.selected {
+    background: url("/bizcontent/marketing/extracare/hero/cvs.png") no-repeat scroll center top #FFFFFF !important;
+}
+
+
+/* --------- Drug 2.0 pages --------- */
+.drug-content ul {margin:0 0 0 30px; padding:0 0 20px 0;}
+.drug-content ul li {list-style:disc; margin:0; padding:0;}
+.drug-content-tips {font-size:14px; line-height:20px;}
+
+/* --------- Personalized Promo --------- */
+html#weeklyadSigninInterrupter #outerRespcont #responsiveMainwrapper{background: url("/bizcontent/marketing/personalized_promo/background/background_whiteHeader.png") repeat-x scroll center top #c2def0;}
+html#weeklyadSignup #outerRespcont #responsiveMainwrapper{background: url("/bizcontent/marketing/personalized_promo/background/background_whiteHeader.png") repeat-x scroll center top #c2def0;}
+html#weeklyadNewCard #outerRespcont #responsiveMainwrapper{background: url("/bizcontent/marketing/personalized_promo/background/background_whiteHeader.png") repeat-x scroll center top #c2def0;}
+html.browse-home-mainPage #outerRespcont #responsiveMainwrapper{background: url("/bizcontent/marketing/personalized_promo/background/background_whiteHeader.png") repeat-x scroll center top #c2def0;}
+html#weeklyadStoreLocator #outerRespcont #responsiveMainwrapper{background: url("/bizcontent/marketing/personalized_promo/background/background_whiteHeader.png") repeat-x scroll center top #c2def0;}
+html.browse-home-mainPage #outerRespcont #responsiveMainwrapper .freezeHeaderBg{background-color: #c2def0;}
+#weeklyadStoreLocator .headermsg-wrap .store-img {background: url("/webcontent/images/weeklyad/signup/store-image.png") no-repeat;}
+
+@media only screen and (min-width: 960px) {
+#desktopResponsiveHeader #top-nav-container .left, #desktopResponsiveHeader #top-nav-container .center, #desktopResponsiveHeader #top-nav-container .right{float:left;vertical-align: top;margin: 0;border: 0 none;}
+#desktopResponsiveHeader #top-nav-container .left{background: url(/webcontent/images/common/red-btn-left-rounded-med-sprite.png) no-repeat 0px 0px transparent; width: 10px;height:25px;}
+#desktopResponsiveHeader #top-nav-container .center{width:auto; height:25px; background: url(/webcontent/images/common/red-btn-center-med-sprite.png) repeat-x 0px 0px transparent;}
+#desktopResponsiveHeader #top-nav-container .right{background: url(/webcontent/images/common/red-btn-right-rounded-med-sprite.png) no-repeat 0px 0px transparent;width: 10px;height:25px;}
+#desktopResponsiveHeader #top-nav-container> .left, #desktopResponsiveHeader #top-nav-container> .center, #desktopResponsiveHeader #top-nav-container> .right{float:right;vertical-align: none;margin: 0;border: 0 none;}
+#desktopResponsiveHeader #top-nav-tabs li a {width:auto;}
+#desktopResponsiveHeader #top-nav-container> .left{background:url('/webcontent/images/common/responsive-header/tabs-left.png') no-repeat 0px 0px transparent;width: 11px;height:53px;}
+#desktopResponsiveHeader #top-nav-container> .center{width:95%; height:53px; background:url('/webcontent/images/common/responsive-header/tabs-center.png')  repeat-x 0px 0px transparent;}
+#desktopResponsiveHeader #top-nav-container> .right{background:url('/webcontent/images/common/responsive-header/tabs-right.png') no-repeat 0px 0px transparent; width: 14px;height:53px;}
+#desktopResponsiveHeader #top-nav-tabs li> a{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;text-align:left;width:100%;}
+}
+
+@media screen and (min-width: 641px){
+#weeklyadStoreLocator .headermsg-wrap{min-height:106px}
+}
+
+
+/* --------- Family Vitamin Center --------- */
+.vitaSliderContent {
+    background-color: #FFFFFF;
+    background-position: left 0;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 85px;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 414px;
+}
+.vitaSliderThumblrg {
+    float: left;
+}
+.vitaSliderDetContent {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px;
+}
+.vitaSliderDetContent h3 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.secondaryL {background:url("/webcontent/images/common/red-arrow-left.png") left center no-repeat transparent; padding-left:10px} 
+
+.overlayIframe-ecPrint {height:814px;} 
+
+li.col2 .sublevel-nav li > a:hover, li.col3 .sublevel-nav li > a:hover, li.col4 .sublevel-nav li > a:hover, li.col2 .sublevel-nav li > a.hover, li.col3 .sublevel-nav li > a.hover, li.col4 .sublevel-nav li > a.hover {
+
+background-color: #cc0000 !important;
+
+}
+
+/* Controls the style of the ship and save tab on My Account */
+.ui-tabs-selected a.autoShipSubs, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a.autoShipSubs, .ui-tabs .ui-tabs-nav li.ui-state-active a.autoShipSubs {background: none !important; color:#cc0000 !important;padding-left: 12px !important;}
+.ui-tabs .ui-tabs-nav li a.autoShipSubs{background: none !important; padding-left: 12px !important;}
+.ui-tabs .ui-tabs-nav li a.autoShipSubs:hover {background: none !important; padding-left: 12px !important; color:#cc0000 !important;}
+
+.cvs-pdp .description ul li {
+  list-style: disc;
+  margin-left:20px
+}
+
+.mp-productFSA {display:none;}
+
+.hearing-and-vision-storelandingslot{margin: 0px 0 0px; !important}
+ 
+.visible-storeDetailsSlot{margin: 0px 0 0px; !important}
+ 
+.detailsCont_Wrpr{margin-top: 0px; !important}
+ 
+.slotDiv{margin: 0px 0px 1px 0px; !important}
+ 
+.hmpl_button_a{margin: 15px 12px 25px 0px; !important}
+
+/* extracare D11108EC16 */
+
+#pl-prototype .hero_img {
+	background-color: #00334B;
+	background-image: url(/bizcontent/extracare/HERO_EC_burst.png)!important;  
+	background-position-x: 94%; 
+	background-position-y: top; 
+	background-repeat: no-repeat!important;
+}
+#pl-prototype .signin_block {background: transparent; border: 0;}
+#pl-prototype .signin_block h1.block_title {color: #fff;}
+#ec-slot1 {padding-top: 12px;}
+#ec-slot1 .uppercase {padding-bottom:0;}
+#ec-slot1 .deals {background-position: right bottom!important;}
+#pl-prototype .anonymousbcc_slot2 {margin-top: 0!important;}
+#ec-slot2 .row-margin {margin-left: 0; margin-right: 0;}
+
+@media only screen and (max-width: 900px) and (min-width: 641px) {
+#ec-slot1 .savings, #ec-slot1 .promo, #ec-slot1 .deals {height: 470px!important;}
+}
+
+@media only screen and (max-width: 767px) {
+	#pl-prototype .hero_img {background-image: none !important;}
+	#ec-slot1 {padding-top: 0;} 
+	#ec-slot2 .box {margin-bottom: 12px; margin-top: 12px;} 
+}
+
+@-moz-document url-prefix(){
+#pl-prototype .hero_img{
+    background-position: 94% center;
+}
+}
+
+/* --------- Promo Landing Page Template --------- */
+body.bizcontainerfix #dMain.container {width: 100%;}
+
+#promolp .nowrap {white-space: nowrap;}
+#promolp .biz-img-responsive {display: block; max-width: 100%; height: auto;}
+#promolp .clear {clear: both;}
+#promolp .fs-disclaimer {color: #767676; font-size: 12px; line-height: 14px;}
+#promolp .fs-default {font-size: 14px; line-height: 18px;}
+#promolp .fs-paragraph {font-size: 16px; line-height: 20px;}
+#promolp .fs-hlevel1 {font-size: 36px; line-height: 36px;}
+#promolp .fs-hlevel2 {font-size: 28px; line-height: 30px;}
+#promolp .fs-hlevel3 {font-size: 22px; line-height: 24px;}
+#promolp .fs-hlevel4 {font-size: 18px; line-height: 22px;}
+#promolp .offscreen {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#promolp .phonehome {white-space: nowrap; text-decoration:underline;}
+#promolp .promoBold {font-weight: bold;}
+#promolp .promoNormal {font-weight: normal;}
+#promolp .uppercase {text-transform: uppercase;}
+
+/* ----- Asterisks and Marks----- */
+#promolp .super {position:relative; bottom:.55em; font-size:.55em; line-height:.55em;}
+#promolp  sup {font-size: 0.6em; line-height: 0.6em; position: relative; top: 0; vertical-align: super;}
+#promolp  sup.super-lg {font-size: 0.3em; line-height: 0.3em; position: relative; top: -.5em; vertical-align: super;}
+
+#promolp ol, #promolp ul.promolist {margin-left: 0.75em;}
+#promolp ol li, #promolp ul.promolist li {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 12px 12px;
+}
+#promolp ul.promolist li {list-style: disc outside;}
+
+/* ----- Vertical Center ----- */
+@media only screen and (min-width: 641px){
+  #promolp .promolp-display-cell {display: table-cell; vertical-align: middle;}
+  #promolp .promolp-vcwrap .promolp-display-cell {float: none;}
+}
+
+/* ----- Horizontal Center ----- */
+#promolp .hccenter-block {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* ----- Paragraph Text Link Font ----- */
+#promolp .para-textlink {text-decoration: underline;}
+#promolp .para-textlink:active {color: #a50000; text-decoration: underline; text-decoration-color: #a50000;}
+#promolp .para-textlink:hover {color: #767676; text-decoration: underline; text-decoration-color: #767676;}
+
+/* ----- Paragraph Text Link Font Dark Bkgrnd----- */
+#promolp .para-textlink-white {color:#fff; text-decoration: underline;}
+#promolp .para-textlink-white:active {color: #d6d7d9; text-decoration: underline; text-decoration-color: #d6d7d9;}
+#promolp .para-textlink-white:hover {color: #d6d7d9; text-decoration: underline; text-decoration-color: #d6d7d9;}
+
+/* ----- Two Column Vertical Rule ----- */
+#promolp .border-column-l {border-left: 1px solid #ccc; padding: 0 0 0 36px; margin-left: 36px;}
+#promolp .border-column-r {border-right: 1px solid #ccc; padding: 0 36px 0 0; margin-right: 36px;}
+
+@media screen and (max-width: 640px) {
+#promolp .border-column-l {border-left: 0; padding: 0; margin-left: 0;}
+#promolp .border-column-r {border-right: 0; padding: 0; margin-right: 0;}
+}
+
+/* --------- Promo Landing Page Template Buttons --------- */
+#promolp .promobtn {font-size: 14px; line-height: 18px; font-weight: bold; padding: 13px 32px 11px 32px; text-align: center; display: table;}
+#promolp .promobtn-outline {font-size: 14px; line-height: 18px; font-weight: bold; padding: 13px 32px; text-align: center; display: table;}
+#promolp .promobtn-inline {display: inline-block;} /* If multiple buttons sit next to each other */
+
+/* RED BUTTON */
+#promolp .red-btn {background-color: #cc0000; border-bottom: 2px solid #a50000;}
+#promolp .red-btn:hover {background-color: #eb0000; text-decoration: none;}
+#promolp .red-btn:active {background-color: #a50000; text-decoration: none;}
+
+/* BLACK BUTTON */
+#promolp .black-btn {background-color: #000000; border-bottom: 2px solid #000000;}
+#promolp .black-btn:hover {background-color: #333333; text-decoration: none;}
+#promolp .black-btn:active {background-color: #767676; text-decoration: none;}
+
+/* WHITE BUTTON */
+#promolp .white-btn {background-color: #ffffff; border-bottom: 2px solid #ffffff;}
+#promolp .white-btn:hover {background-color: #e9e9e9; text-decoration: none;}
+#promolp .white-btn:active {background-color: #e9e9e9; text-decoration: none;}
+
+/* RED OUTLINED BUTTON */
+#promolp .red-outline-btn {background-color: #ffffff; outline: #cc0000 solid 2px; outline-offset: -2px;}
+#promolp .red-outline-btn:hover {color: #eb0000; outline: #eb0000 solid 2px; outline-offset: -2px; text-decoration: none;}
+#promolp .red-outline-btn:active {color: #a50000; outline: #a50000 solid 2px; outline-offset: -2px; text-decoration: none;}
+
+/* WHITE OUTLINED BUTTON */
+#promolp .white-outline-btn {background-color: none; outline: #ffffff solid 2px; outline-offset: -2px;}
+#promolp .white-outline-btn:hover {color: #8c8c8c; outline: #8c8c8c solid 2px; outline-offset: -2px; text-decoration: none;}
+#promolp .white-outline-btn:active {color: #ccc; outline: #ccc solid 2px; outline-offset: -2px; text-decoration: none;}
+
+#promolp .white-txt, #promolp button.white-txt {color: #ffffff;}
+#promolp .black-txt, #promolp button.black-txt {color: #000000;}
+#promolp .red-txt {color: #cc0000;}
+
+@media screen and (max-width: 640px) {
+    #promolp .promobtn, #promolp .promobtn-outline, #promolp button.promobtn {display: block; width: 100%;}
+}
+
+/* --------- Promo Landing Page Template White Space --------- */
+#promolp .spacer1x-bottom {padding-bottom: 12px;}
+#promolp .spacer1x-top {padding-top: 12px;}
+#promolp .spacer1x-left {padding-left: 12px;}
+#promolp .spacer1x-right {padding-right: 12px;}
+
+#promolp .spacer2x-bottom {padding-bottom: 24px;}
+#promolp .spacer2x-top {padding-top: 24px;}
+#promolp .spacer2x-left {padding-left: 24px;}
+#promolp .spacer2x-right {padding-right: 24px;}
+
+#promolp .spacer3x-bottom {padding-bottom: 48px;}
+#promolp .spacer3x-top {padding-top: 48px;}
+#promolp .spacer3x-left {padding-left: 48px;}
+#promolp .spacer3x-right {padding-right: 48px;}
+
+#promolp .spacer-none-bottom {padding-bottom: 0;}
+#promolp .spacer-none-top {padding-top: 0;}
+#promolp .spacer-none-left {padding-left: 0;}
+#promolp .spacer-none-right {padding-right: 0;}
+#promolp .spacer-none {padding: 0;}
+
+#promolp .margin1x-bottom {margin-bottom: 12px;}
+#promolp .margin1x-top {margin-top: 12px;}
+#promolp .margin1x-left {margin-left: 12px;}
+#promolp .margin1x-right {margin-right: 12px;}
+
+#promolp .margin2x-bottom {margin-bottom: 24px;}
+#promolp .margin2x-top {margin-top: 24px;}
+#promolp .margin2x-left {margin-left: 24px;}
+#promolp .margin2x-right {margin-right: 24px;}
+
+#promolp .margin3x-bottom {margin-bottom: 48px;}
+#promolp .margin3x-top {margin-top: 48px;}
+#promolp .margin3x-left {margin-left: 48px;}
+#promolp .margin3x-right {margin-right: 48px;}
+
+#promolp .margin-none-bottom {margin-bottom: 0;}
+#promolp .margin-none-top {margin-top: 0;}
+#promolp .margin-none-left {margin-left: 0;}
+#promolp .margin-none-right {margin-right: 0;}
+#promolp .margin-none {margin: 0;}

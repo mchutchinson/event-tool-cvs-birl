@@ -1,0 +1,208 @@
+<link type="text/css" rel="stylesheet" media="all" href="bootstrap.css" />
+<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="typeahead.js"></script>
+<link type="text/css" rel="stylesheet" media="all" href="business.css" />
+
+
+<div class="container" id="dMain">
+
+<style>
+ul {padding-left: 0;}
+ul li {list-style: none; padding-left: 0; margin: 0;}
+body {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+.hero {padding: 0px 48px;}
+.hero-text img{width: 300px;}
+.hero-img img {width: 367px; float: right;}
+#promolp .fs-hlevel1{font-size: 48px; line-height: 48px;}
+#promolp .border-column-r{border-right: 2px solid #00334B; padding: 0;}
+#promolp .blue-background{padding: 36px 48px;}
+#promolp .gray-background{background: #F2F2F2; padding: 24px 48px;}
+#promolp .dropdown-image {max-height: 120px;}
+#promolp .border-bottom {border-bottom: 1px solid #979797;}
+#promolp .address .searchBox {
+  float:left;
+}
+#promolp .address {width:100%;margin-top:15px;}
+#promolp .address label {font-size:12px; color:#FFF; font-weight:bold;}
+#promolp .address input {display:block; width:200px; font-size:14px; color:#333; height: 44px;}
+#bizaccordion .ui-state-default, #bizaccordion .ui-accordion-content{
+  border: none !important;
+}
+.event-listing{border-top: 2px solid #FFF; display:none;}
+.blue-border{border:1px solid #00334B; margin: 48px 0px;}
+.gray-border{border-bottom: 1px solid #979797; margin: 24px 0px;}
+.locations-image{max-width: 190px; margin: 24px 0px; }
+
+.health-hub-locations{padding: 36px 48px;}
+
+#error p{font-size: 18px; line-height: 18px; color: #FFF; font-style: italic;}
+/*li.line-content{color: white;}*/
+
+.event-finder .page-item a {margin-left: 10px;}
+
+#promolp .event-finder{min-height: 408px;}
+
+#submit1{padding: 16px 32px; margin-bottom: 20px;}
+
+#button_asc_date, #button_desc_date, #button_asc_distance, #button_desc_distance{
+  width: 10px;
+  padding: 0px;
+}
+
+/*.line-content {clear: both;}*/
+.line-content-address {margin-bottom: 48px;}
+/*.event-columns {float: left; width: 25%;}*/
+#temp-title {margin-bottom: 48px;}
+
+/*loader*/
+#wait {
+  z-index: 1;
+  border: 8px solid #fff;
+  border-top: 8px solid #000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  /* display: none; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+.pagination > li > a, .pagination > li > span{
+  border: none;
+  border-radius: 100%;
+  border-bottom-left-radius: 100% !important;
+  border-top-left-radius: 100% !important;
+  color: #767676;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    margin-left: 10px;
+    color: #767676;
+}
+.pagination > li > a.current{
+  background: #CC0000;
+  color: #FFF;
+}
+@media screen and (max-width: 1023px) {
+    #promolp .fs-hlevel1{font-size: 36px; line-height: 36px;}
+    .hero-text {padding: 48px 23px;}
+  }
+@media screen and (max-width: 900px){
+  .event-finder{min-height: auto;}
+  .location{padding-top: 38px;}
+}  
+
+@media screen and (max-width: 641px) {
+  .line-content-description {clear: both;}
+}
+
+@media screen and (max-width: 640px) {
+  .hero-text {padding: 12px 12px 0 12px;}
+  #promolp .fs-hlevel2{font-size: 22px; line-height: 24px;}
+  #promolp .border-column-r{border-right: 0px; border-bottom: 2px solid #00334B;}
+  #promolp .ui-accordion-content p{font-size: 12px;}
+  #bizaccordion .ui-accordion-content{padding:0px;}
+  #promolp .gray-background{padding: 12px;}
+  .location{padding-top: 38px;}
+  .event-finder{min-height: auto;}
+  #promolp .blue-background h3 {font-size: 18px;}
+  #promolp .blue-background {padding: 0;}
+  .health-hub-locations, .hero{padding: 20px;}
+
+  .line-content-distance div {margin-top: -38px;}
+}
+</style>
+
+<div id="promolp" class="promoLanding-template-columns">
+<nav id="promobreadcrumbs">
+  <ul>
+    <li><a title="Go to the CVS home page" href="/">Home</a></li>
+    <li>bIRL</li>
+  </ul>
+</nav>
+<h1 class="margin-none spacer2x-bottom">bIRL</h1>
+
+<a id="event_finder"></a>
+<div class="col-xs-24 row margin2x-top gray-border spacer-none">
+  <div class="col-xs-24 blue-background event-finder margin2x-bottom">
+    <h2 class="fs-hlevel2 promoTextblack margin-none">Find out what's happening in store.</h2>
+    <p class="promoTextblack fs-hlevel4 margin2x-top margin2x-bottom">Events consectetur adipiscing elit and glamsquad services check store near you</p>
+  
+<label for="zipcode1" class="promoTextblack" style="display: block;">Enter ZIP Code</label>
+  <input id="zipcode1" type="text">
+  <!-- <select id="milage">
+    <option value=5>5</option>
+    <option value=10>10</option>
+    <option value=25>25</option>
+    <option value=50>50</option>
+  </select> -->
+  <div id="error"></div>
+  <br>
+  <!-- <label for="zipcode2">2nd Zipcode</label>
+  <input type="text" id="zipcode2"> -->
+  <input id="submit1" type="submit" class="pbtn-large pbtn-red promoTextwhite" value="Find an event">
+
+  <p id="wait">Loading...</p>
+  <p id="demo"></p>
+  <div style="width: 100%; float: left;" id="events">
+    <div id="temp-title" class="margin1x-top">
+        <div class="line-content-date promoTextblack col-xs-12 col-sm-6">
+          
+          <input type="image" id="button_asc_date" src="red-up.png">
+          Event <span class="hidden-xs">Date/Time</span><!--<span class="visible-xs">by date</span>-->
+          <input type="image" id="button_desc_date" src="red-down.png">
+        </div>
+
+        <div class="line-content-address promoTextblack col-xs-6 hidden-xs">Description</div>
+
+
+        <div class="line-content-distance promoTextblack col-xs-12 col-sm-6">
+          <input type="image" id="button_asc_distance" src="red-up.png">
+          Distance in miles
+          <input type="image" id="button_desc_distance" src="red-down.png">
+        </div>
+
+        <div class="line-content-address promoTextblack col-xs-6 hidden-xs">Address</div>
+
+      </div>
+    <ul id="temp">
+        
+    </ul>
+  </div>
+  <nav aria-label="Page navigation example">
+    <ul id="pagin" class="pagination"></ul>
+  </nav>
+  <div id="pagination"></div>
+</body>
+
+  </div>
+  <div class="col-xs-24 col-sm-24 col-md-2 event-finder">
+  </div>
+</div>
+  
+</div><!-- /promolp-->
+
+<script src="event_finder.js" type="text/javascript"></script><!-- KEEP -->
+<script type="text/javascript">
+  event_finder("sampleXML.xml");
+</script>
+
+
+<!--  End page content  -->
+
+<!--  REMOVE BELOW  -->
+</div>
